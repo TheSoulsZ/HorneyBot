@@ -49,9 +49,9 @@ $filter_kind = [ 1 => 'tv', 2 => 'movie' ];
 
 function mainMenu(){
     global $keyboard;
-    keyboard( '🔎 Поиск', 0 );
-    keyboard( '⭐️ Избранные', 0 );
-    keyboard( '⚙️ Настройки', 1 );
+    keyboard( '🎸 Поиск', 0 );
+    keyboard( '🛡️ Избранные', 0 );
+    keyboard( '❄️ Настройки', 1 );
     $keyboard['keyboard'] = array_values($keyboard['keyboard']);
     $keyboard['resize_keyboard'] = true;
 }
